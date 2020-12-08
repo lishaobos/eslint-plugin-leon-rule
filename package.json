@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-leon-rule",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "leon custom rule",
   "keywords": [
     "eslint",
