@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-leon-rule",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "leon custom rule",
   "keywords": [
     "eslint",
@@ -8,14 +8,18 @@
     "eslint-plugin"
   ],
   "author": "leon",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "babel lib -d dist",
     "test": "mocha tests --recursive"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
     "eslint": "^7.1.0",
     "mocha": "^7.2.0"
   },
