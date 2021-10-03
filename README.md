@@ -19,12 +19,10 @@ $ npm install eslint-plugin-leon-rule --save-dev
 
 ## Usage
 
-Add `leon-rule` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
-
 ```json
 {
-    "plugins": [
-        "leon-rule"
+    "extends": [
+        "plugin:leon-rule/recommended"
     ]
 }
 ```
